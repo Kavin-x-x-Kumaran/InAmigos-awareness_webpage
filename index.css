@@ -65,11 +65,19 @@ body {
     opacity: 0.5;
     z-index: -1;
     pointer-events: none;
-    border-radius: 20px;
+    border-radius: 20%;
 }
 .body-text{
     color: rgb(211, 255, 208);
     font-size: 1.2em;
     line-height: 1.5;
     text-align: justify;
+}
+.contact-list a{
+    font-weight: bold;
+    text-decoration: underline;
+    color: inherit;
+}
+.contact-list a:hover{
+    color: #17c85b;
 }
